@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -19,6 +23,29 @@ section {
 .half-width {
     width: 50%;
     padding: 3%;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+}
+
+#full-stack-dev {
+    border-left: 7px solid tomato;
+}
+
+#baby-stack-dev {
+    border-left: 7px solid blue;
+}
+
+.experience-area {
+    background-image: url(./Untitled\ design\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .half-width img {
@@ -43,4 +70,8 @@ section {
     background-image: url(./Untitled\ design\ \(1\).png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+footer {
+    text-align: center;
 }
